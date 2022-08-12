@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <ul class="flex justify-center items-center">
+            <li class="mr-3 item-lst" >
+              <a class="inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3" href="index.html">Home</a>
+            </li>
+            <li class="mr-3 item-lst">
+              <a class="inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3" href="tableUsers.html">Users</a>
+            </li>
+            <li class="mr-3 item-lst">
+              <a class="inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3"href="api.html">API Rick & Morty</a>
+            </li>
+            <li class="mr-3 item-lst">
+                <a class="inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3" href="formularios.html">Contact form</a>
+              </li>
+          </ul>
+    </header>   
+ <div class="container">
+<div class="overflow-x-auto relative">
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" class="py-3 px-6 rounded-l-lg">
+                    Name
+                </th>
+                <th scope="col" class="py-3 px-6">
+                    Id
+                </th>
+                <th scope="col" class="py-3 px-6 rounded-r-lg">
+                    Phone
+                </th>
+                <th scope="col" class="py-3 px-6 rounded-r-lg">
+                    Email
+                </th>
+                
+                <th scope="col" class="py-3 px-6 rounded-r-lg">
+                    City
+                </th>
+                <th scope="col" class="py-3 px-6 rounded-r-lg">
+                    Company
+                </th>
+            </tr>
+        </thead>
+        <tbody id="tabla-usuarios">
+            <!<tr class=" usuario">
+                <td  class="info-name"></td>
+                <td class="info-id"></td>
+                <td class="info-phone"></td>
+                <td class="info-email"></td>
+                <td class="info-city"></td>
+                <td class="info-company"></td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+ </div>
+
+<script src="Users.js"></script>
+</body>
+</html>
